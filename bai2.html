@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        function countWord(str) {
+            express = /,| /g;
+            let found = str.match(express);
+            console.log("so tu la " + found.length)
+        }
+
+        countWord("1,2,3 4,5");
+    </script>
+</body>
+</html>
